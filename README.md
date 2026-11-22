@@ -27,7 +27,7 @@ COBB Accessport 是本项目的研究参考。官方流程中，Windows 上的 *
 | PDK 实验写入、还原与中断处理 | 原型在模拟环境中验证了实验写入、写后读回比对及从匹配备份还原。也覆盖了无备份、备份损坏、身份不符和恢复中断等情况。 |
 | ECU 刷写 | 已实现识别与部分离线准备。原型暂时限制新 ECU 写入，因为原车完整读取及原样还原仍缺少验证。 |
 
-历史完整原型在 Windows x64 和 x86 上各通过 178 项模拟回归。这个公开仓库提供 Manager 离线分析器、J2534 适配器与识别代码、SDI 压缩编解码器、合成测试及研究报告。PDK 备份、写入和恢复以历史模拟结果记录。各目录的测试方法见 [Manager 工具说明](manager/README.md)和 [Porsche 981 原型说明](porsche981/README.md)。
+历史完整原型在 Windows x64 和 x86 上各通过 178 项模拟回归。这个公开仓库提供 Manager 离线分析器、J2534 适配器与识别代码、SDI 压缩编解码器、合成测试及研究报告。可用 [离线参考模型](porsche981/simulate_pdk_workflow.py)复现 PDK 备份、模拟写入及恢复场景。各目录的测试方法见 [Manager 工具说明](manager/README.md)和 [Porsche 981 原型说明](porsche981/README.md)。
 
 ## 哪些功能还没有测试过
 
