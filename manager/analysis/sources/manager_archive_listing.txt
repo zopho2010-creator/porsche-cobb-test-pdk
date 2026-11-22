@@ -1,0 +1,18 @@
+bz 7.27(Beta,x64) - Bandizip console tool. Copyright(C) 2022 Bandisoft
+Listing archive: samples\downloads\APManagerSetup.exe
+Archive format: NSIS
+
+      Date  Time    Attr         Size     CompSize Name
+------------------- ---- ------------ ------------ -------------------------
+1970-01-01 08:00:00 ____           -1         8004 $PLUGINSDIR\InstallOptions.dll
+1970-01-01 08:00:00 ____           -1         6826 $PLUGINSDIR\System.dll
+2007-11-15 04:12:38 ____           -1          134 $PLUGINSDIR\ioSpecial.ini
+2003-09-24 02:34:00 ____           -1         1884 $PLUGINSDIR\modern-wizard.bmp
+1970-01-01 08:00:00 ____           -1         3121 $PLUGINSDIR\nsExec.dll
+2026-07-14 02:08:40 ____           -1      3374758 APManager.exe
+2026-01-23 01:17:08 ____           -1     14079751 VC_redist.x86.exe
+2026-01-23 01:17:08 ____           -1         6112 EULA_APM.htm
+2026-01-23 01:17:08 ____           -1      4936705 APDriverInstall.exe
+1970-01-01 08:00:00 ____           -1         9628 uninst.exe
+------------------- ---- ------------ ------------ -------------------------
+2026-11-04 02:00:51               -10     22426923 10 files, 0 folders

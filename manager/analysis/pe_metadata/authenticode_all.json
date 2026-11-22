@@ -1,0 +1,210 @@
+[
+  {
+    "Path": "downloads\\APManagerSetup.exe",
+    "Status": "Valid",
+    "Message": "Signature verified.",
+    "Signer": "CN=\"COBB Tuning Products, LLC\", O=\"COBB Tuning Products, LLC\", L=Austin, S=Texas, C=US",
+    "Thumbprint": "6A97B43FF65F48F93E1F25BED630569037B49B2C",
+    "TimestampSigner": "CN=DigiCert SHA256 RSA4096 Timestamp Responder 2025 1, O=\"DigiCert, Inc.\", C=US"
+  },
+  {
+    "Path": "extracted\\drivers\\accessport64.cat",
+    "Status": "Valid",
+    "Message": "Signature verified.",
+    "Signer": "CN=\"COBB Tuning Products, LLC\", OU=Digital ID Class 3 - Microsoft Software Validation v2, O=\"COBB Tuning Products, LLC\", L=Austin, S=Texas, C=US",
+    "Thumbprint": "06EDFBC393545051713D87FBC2C422989F7330FD",
+    "TimestampSigner": "CN=Symantec Time Stamping Services Signer - G3, O=Symantec Corporation, C=US"
+  },
+  {
+    "Path": "extracted\\drivers\\accessportx86.cat",
+    "Status": "Valid",
+    "Message": "Signature verified.",
+    "Signer": "CN=\"COBB Tuning Products, LLC\", OU=Digital ID Class 3 - Microsoft Software Validation v2, O=\"COBB Tuning Products, LLC\", L=Austin, S=Texas, C=US",
+    "Thumbprint": "06EDFBC393545051713D87FBC2C422989F7330FD",
+    "TimestampSigner": "CN=Symantec Time Stamping Services Signer - G3, O=Symantec Corporation, C=US"
+  },
+  {
+    "Path": "extracted\\drivers\\AP_20_x64.cat",
+    "Status": "UnknownError",
+    "Message": "指定的信任提供程序不认识或不支持使用者的指定格式。",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\drivers\\AP_20.cat",
+    "Status": "UnknownError",
+    "Message": "指定的信任提供程序不认识或不支持使用者的指定格式。",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\drivers\\driverinstaller.exe",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\drivers\\driverinstaller.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\drivers\\driverinstaller64.exe",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\drivers\\driverinstaller64.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\drivers\\FTBUSUI.dll",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\drivers\\FTBUSUI.dll is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\drivers\\FTD2XX.dll",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\drivers\\FTD2XX.dll is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\drivers\\ftdibus.sys",
+    "Status": "Valid",
+    "Message": "Signature verified.",
+    "Signer": "CN=Future Technology Devices International Ltd, OU=Digital ID Class 3 - Microsoft Software Validation v2, O=Future Technology Devices International Ltd, L=Glasgow, S=Scotland, C=GB",
+    "Thumbprint": "029E8FF6146EE9AEDA68092AB030057165B73A20",
+    "TimestampSigner": "CN=VeriSign Time Stamping Services Signer - G2, O=\"VeriSign, Inc.\", C=US"
+  },
+  {
+    "Path": "extracted\\drivers\\libusb0.dll",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\drivers\\libusb0.dll is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\drivers\\libusb0.sys",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\drivers\\libusb0.sys is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\drivers\\uninst.exe",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\drivers\\uninst.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\drivers\\$PLUGINSDIR\\nsDialogs.dll",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\drivers\\$PLUGINSDIR\\nsDialogs.dll is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\drivers\\$PLUGINSDIR\\System.dll",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\drivers\\$PLUGINSDIR\\System.dll is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\drivers\\amd64\\WdfCoInstaller01005.dll",
+    "Status": "Valid",
+    "Message": "Signature verified.",
+    "Signer": "CN=Microsoft Windows Component Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+    "Thumbprint": "5C4D0AED88959C9D30C1B30F9AA916BE57544CF6",
+    "TimestampSigner": "CN=VeriSign Time Stamping Services Signer, O=\"VeriSign, Inc.\", C=US"
+  },
+  {
+    "Path": "extracted\\drivers\\amd64\\WinUSBCoInstaller.dll",
+    "Status": "Valid",
+    "Message": "Signature verified.",
+    "Signer": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+    "Thumbprint": "E6C167825915CF2BBF4969D75DFE1BF08CE87290",
+    "TimestampSigner": "CN=VeriSign Time Stamping Services Signer, O=\"VeriSign, Inc.\", C=US"
+  },
+  {
+    "Path": "extracted\\drivers\\i386\\WdfCoInstaller01005.dll",
+    "Status": "Valid",
+    "Message": "Signature verified.",
+    "Signer": "CN=Microsoft Windows Component Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+    "Thumbprint": "5C4D0AED88959C9D30C1B30F9AA916BE57544CF6",
+    "TimestampSigner": "CN=VeriSign Time Stamping Services Signer, O=\"VeriSign, Inc.\", C=US"
+  },
+  {
+    "Path": "extracted\\drivers\\i386\\WinUSBCoInstaller.dll",
+    "Status": "Valid",
+    "Message": "Signature verified.",
+    "Signer": "CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+    "Thumbprint": "E6C167825915CF2BBF4969D75DFE1BF08CE87290",
+    "TimestampSigner": "CN=VeriSign Time Stamping Services Signer, O=\"VeriSign, Inc.\", C=US"
+  },
+  {
+    "Path": "extracted\\manager\\APDriverInstall.exe",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\manager\\APDriverInstall.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\manager\\APManager.exe",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\manager\\APManager.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\manager\\uninst.exe",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\manager\\uninst.exe is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\manager\\VC_redist.x86.exe",
+    "Status": "Valid",
+    "Message": "Signature verified.",
+    "Signer": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+    "Thumbprint": "ABDCA79AF9DD48A0EA702AD45260B3C03093FB4B",
+    "TimestampSigner": "CN=Microsoft Time-Stamp Service, OU=Thales TSS ESN:EACE-E316-C91D, OU=Microsoft America Operations, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"
+  },
+  {
+    "Path": "extracted\\manager\\$PLUGINSDIR\\InstallOptions.dll",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\manager\\$PLUGINSDIR\\InstallOptions.dll is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\manager\\$PLUGINSDIR\\nsExec.dll",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\manager\\$PLUGINSDIR\\nsExec.dll is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  },
+  {
+    "Path": "extracted\\manager\\$PLUGINSDIR\\System.dll",
+    "Status": "NotSigned",
+    "Message": "The file samples\\extracted\\manager\\$PLUGINSDIR\\System.dll is not digitally signed. You cannot run this script on the current system. For more information about running scripts and setting execution policy, see about_Execution_Policies at https://go.microsoft.com/fwlink/?LinkID=135170",
+    "Signer": null,
+    "Thumbprint": null,
+    "TimestampSigner": null
+  }
+]

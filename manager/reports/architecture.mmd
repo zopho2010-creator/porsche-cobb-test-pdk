@@ -1,0 +1,19 @@
+flowchart TD
+  GUI[APManager.exe wxWidgets GUI] --> APInfo[APConnection getInfo 0x482B90]
+  APInfo --> Profile[Profile AP-POR-007]
+  GUI --> Version[Check update 0x51FF50]
+  Profile --> Version
+  Version --> HTTP[Public version_v3.txt and version directory]
+  HTTP --> Images[Downloaded AP images and MD5SUMS]
+  Images --> Schedule[Download/update 0x50CB20 / 0x503A20]
+  Schedule --> Updater[Updater download/send 0x511360 / 0x514A30]
+  GUI --> Maps[Map named metadata 0x7F7C50 / 0x7F72C0]
+  Maps --> Cache[Internal Boost metadata archive]
+  Maps --> USB[USBCommunicator split write / receive]
+  Updater --> USB
+  USB --> WinUSB[WinUSB dynamic backend]
+  USB --> LibUSB[libusb fallback]
+  WinUSB --> AP[Accessport hardware - no live test]
+  LibUSB --> AP
+  AP -. Official documented vehicle path .-> OBD[OBD-II]
+  OBD -. No local ECU or PDK execution evidence .-> Vehicle[Porsche 981 ECU / PDK]

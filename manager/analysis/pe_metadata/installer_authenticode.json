@@ -1,0 +1,6 @@
+{
+  "Status": 0,
+  "StatusMessage": "Signature verified.",
+  "Subject": "CN=\"COBB Tuning Products, LLC\", O=\"COBB Tuning Products, LLC\", L=Austin, S=Texas, C=US",
+  "Issuer": "CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O=\"DigiCert, Inc.\", C=US"
+}

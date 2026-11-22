@@ -1,0 +1,30 @@
+bz 7.27(Beta,x64) - Bandizip console tool. Copyright(C) 2022 Bandisoft
+Listing archive: samples\extracted\manager\APDriverInstall.exe
+Archive format: NSIS
+
+      Date  Time    Attr         Size     CompSize Name
+------------------- ---- ------------ ------------ -------------------------
+2003-09-24 02:34:00 ____           -1         1886 $PLUGINSDIR\modern-wizard.bmp
+1970-01-01 08:00:00 ____           -1         4532 $PLUGINSDIR\nsDialogs.dll
+1970-01-01 08:00:00 ____           -1         6175 $PLUGINSDIR\System.dll
+2012-03-21 02:40:00 ____           -1       164603 driverinstaller64.exe
+2012-03-21 02:40:00 ____           -1        54978 driverinstaller.exe
+2010-06-30 02:53:54 ____           -1          869 Cobb_OBDFTDI.INF
+2010-06-30 02:53:54 ____           -1        86283 FTD2XX.dll
+2010-06-30 02:53:54 ____           -1        30881 ftdibus.sys
+2010-06-30 02:53:54 ____           -1        50218 FTBUSUI.dll
+2010-06-30 02:53:54 ____           -1        19024 libusb0.dll
+2010-06-30 02:53:54 ____           -1        11793 libusb0.sys
+2010-06-30 02:53:56 ____           -1          970 AP_20.inf
+2010-06-30 02:53:54 ____           -1          117 AP_20.cat
+2010-06-30 02:53:54 ____           -1          117 AP_20_x64.cat
+2012-10-12 07:35:52 ____           -1          869 accessport.inf
+2012-10-12 07:40:10 ____           -1         4757 accessportx86.cat
+2012-10-12 07:40:04 ____           -1         4753 accessport64.cat
+2010-06-30 02:35:34 ____           -1      1380802 i386\WdfCoInstaller01005.dll
+2010-06-30 02:35:34 ____           -1       528402 i386\WinUSBCoInstaller.dll
+2010-06-30 02:36:38 ____           -1      1878545 amd64\WdfCoInstaller01005.dll
+2010-06-30 02:36:38 ____           -1       654165 amd64\WinUSBCoInstaller.dll
+1970-01-01 08:00:00 ____           -1         9588 uninst.exe
+------------------- ---- ------------ ------------ -------------------------
+2026-01-23 01:17:08               -22      4894327 22 files, 0 folders

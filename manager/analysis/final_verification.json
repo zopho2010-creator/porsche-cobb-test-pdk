@@ -1,0 +1,18 @@
+{
+  "analysis/scan.json": {
+    "files_verified": 33,
+    "mismatches": []
+  },
+  "analysis/firmware_samples/scan.json": {
+    "files_verified": 6,
+    "mismatches": []
+  },
+  "rea_evidence": {
+    "indexed_records": 46,
+    "missing": []
+  },
+  "report_links": {
+    "broken": []
+  },
+  "verified_utc": "2026-11-04T01:10:53.924783+00:00"
+}

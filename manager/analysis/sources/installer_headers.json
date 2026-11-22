@@ -1,0 +1,32 @@
+{
+  "x-amz-request-id": [
+    "Y2EVMYEKYMD3SGD4"
+  ],
+  "x-amz-id-2": [
+    "8loaEPOhDnQk85OLfuhF/K6sswR5HLN9OQmGblDz9i1xj1wa5G4bGn9rJJ33WzcPpq8zxZDFOXV/uVN+Boz+Ibae2l8h52FE"
+  ],
+  "Accept-Ranges": [
+    "bytes"
+  ],
+  "Date": [
+    "Tue, 03 Nov 2026 18:00:42 GMT"
+  ],
+  "Server": [
+    "AmazonS3"
+  ],
+  "ETag": [
+    "\"0564c19d8b19c4268aa26d695d61f8de-3\""
+  ],
+  "x-amz-server-side-encryption": [
+    "AES256"
+  ],
+  "Content-Length": [
+    "22494736"
+  ],
+  "Last-Modified": [
+    "Tue, 14 Jul 2026 14:31:33 GMT"
+  ],
+  "Content-Type": [
+    "application/octet-stream"
+  ]
+}

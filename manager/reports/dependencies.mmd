@@ -1,0 +1,217 @@
+flowchart LR
+  n0["ADVAPI32.DLL"]
+  n1["ADVAPI32.dll"]
+  n2["COMCTL32.dll"]
+  n3["COMDLG32.dll"]
+  n4["CRYPT32.dll"]
+  n5["Cabinet.dll"]
+  n6["GDI32.dll"]
+  n7["HAL.DLL"]
+  n8["KERNEL32.dll"]
+  n9["MSVCP140.dll"]
+  n10["NTOSKRNL.EXE"]
+  n11["Normaliz.dll"]
+  n12["OLEAUT32.dll"]
+  n13["RPCRT4.dll"]
+  n14["SETUPAPI.dll"]
+  n15["SHELL32.dll"]
+  n16["SHLWAPI.dll"]
+  n17["USBD.SYS"]
+  n18["USER32.dll"]
+  n19["VCRUNTIME140.dll"]
+  n20["VERSION.dll"]
+  n21["WININET.dll"]
+  n22["WINSPOOL.DRV"]
+  n23["WINTRUST.dll"]
+  n24["WLDAP32.dll"]
+  n25["WS2_32.dll"]
+  n26["api-ms-win-crt-convert-l1-1-0.dll"]
+  n27["api-ms-win-crt-environment-l1-1-0.dll"]
+  n28["api-ms-win-crt-filesystem-l1-1-0.dll"]
+  n29["api-ms-win-crt-heap-l1-1-0.dll"]
+  n30["api-ms-win-crt-locale-l1-1-0.dll"]
+  n31["api-ms-win-crt-math-l1-1-0.dll"]
+  n32["api-ms-win-crt-runtime-l1-1-0.dll"]
+  n33["api-ms-win-crt-stdio-l1-1-0.dll"]
+  n34["api-ms-win-crt-string-l1-1-0.dll"]
+  n35["api-ms-win-crt-time-l1-1-0.dll"]
+  n36["api-ms-win-crt-utility-l1-1-0.dll"]
+  n37["cfgmgr32.dll"]
+  n38["comdlg32.dll"]
+  n39["downloads/APManagerSetup.exe"]
+  n40["extracted/drivers/$PLUGINSDIR/System.dll"]
+  n41["extracted/drivers/$PLUGINSDIR/nsDialogs.dll"]
+  n42["extracted/drivers/FTBUSUI.dll"]
+  n43["extracted/drivers/FTD2XX.dll"]
+  n44["extracted/drivers/amd64/WdfCoInstaller01005.dll"]
+  n45["extracted/drivers/amd64/WinUSBCoInstaller.dll"]
+  n46["extracted/drivers/driverinstaller.exe"]
+  n47["extracted/drivers/driverinstaller64.exe"]
+  n48["extracted/drivers/ftdibus.sys"]
+  n49["extracted/drivers/i386/WdfCoInstaller01005.dll"]
+  n50["extracted/drivers/i386/WinUSBCoInstaller.dll"]
+  n51["extracted/drivers/libusb0.dll"]
+  n52["extracted/drivers/libusb0.sys"]
+  n53["extracted/drivers/uninst.exe"]
+  n54["extracted/manager/$PLUGINSDIR/InstallOptions.dll"]
+  n55["extracted/manager/$PLUGINSDIR/System.dll"]
+  n56["extracted/manager/$PLUGINSDIR/nsExec.dll"]
+  n57["extracted/manager/APDriverInstall.exe"]
+  n58["extracted/manager/APManager.exe"]
+  n59["extracted/manager/VC_redist.x86.exe"]
+  n60["extracted/manager/uninst.exe"]
+  n61["msi.dll"]
+  n62["msvcrt.dll"]
+  n63["newdev.dll"]
+  n64["ntdll.dll"]
+  n65["ntoskrnl.exe"]
+  n66["ole32.dll"]
+  n67["setupapi.dll"]
+  n68["usbd.sys"]
+  n39 -->|imports| n8
+  n39 -->|imports| n18
+  n39 -->|imports| n6
+  n39 -->|imports| n15
+  n39 -->|imports| n1
+  n39 -->|imports| n2
+  n39 -->|imports| n66
+  n41 -->|imports| n8
+  n41 -->|imports| n18
+  n41 -->|imports| n6
+  n41 -->|imports| n15
+  n41 -->|imports| n38
+  n41 -->|imports| n66
+  n40 -->|imports| n8
+  n40 -->|imports| n18
+  n40 -->|imports| n66
+  n44 -->|imports| n62
+  n44 -->|imports| n14
+  n44 -->|imports| n8
+  n44 -->|imports| n1
+  n44 -->|imports| n4
+  n44 -->|imports| n23
+  n44 -->|imports| n15
+  n44 -->|imports| n18
+  n44 -->|imports| n66
+  n45 -->|imports| n14
+  n45 -->|imports| n8
+  n46 -->|imports| n14
+  n46 -->|imports| n63
+  n46 -->|imports| n8
+  n46 -->|imports| n18
+  n46 -->|imports| n1
+  n47 -->|imports| n14
+  n47 -->|imports| n63
+  n47 -->|imports| n64
+  n47 -->|imports| n8
+  n47 -->|imports| n18
+  n47 -->|imports| n1
+  n42 -->|imports| n14
+  n42 -->|imports| n8
+  n42 -->|imports| n18
+  n43 -->|imports| n14
+  n43 -->|imports| n8
+  n48 -->|imports| n10
+  n48 -->|imports| n7
+  n48 -->|imports| n17
+  n48 -->|imports| n65
+  n49 -->|imports| n62
+  n49 -->|imports| n14
+  n49 -->|imports| n8
+  n49 -->|imports| n1
+  n49 -->|imports| n4
+  n49 -->|imports| n23
+  n49 -->|imports| n15
+  n49 -->|imports| n18
+  n49 -->|imports| n66
+  n50 -->|imports| n14
+  n50 -->|imports| n8
+  n51 -->|imports| n0
+  n51 -->|imports| n37
+  n51 -->|imports| n8
+  n51 -->|imports| n62
+  n51 -->|imports| n62
+  n51 -->|imports| n67
+  n51 -->|imports| n18
+  n52 -->|imports| n68
+  n52 -->|imports| n65
+  n53 -->|imports| n8
+  n53 -->|imports| n18
+  n53 -->|imports| n6
+  n53 -->|imports| n15
+  n53 -->|imports| n1
+  n53 -->|imports| n2
+  n53 -->|imports| n66
+  n53 -->|imports| n20
+  n54 -->|imports| n8
+  n54 -->|imports| n18
+  n54 -->|imports| n6
+  n54 -->|imports| n15
+  n54 -->|imports| n38
+  n54 -->|imports| n66
+  n56 -->|imports| n8
+  n56 -->|imports| n18
+  n56 -->|imports| n1
+  n55 -->|imports| n8
+  n55 -->|imports| n18
+  n55 -->|imports| n66
+  n57 -->|imports| n8
+  n57 -->|imports| n18
+  n57 -->|imports| n6
+  n57 -->|imports| n15
+  n57 -->|imports| n1
+  n57 -->|imports| n2
+  n57 -->|imports| n66
+  n57 -->|imports| n20
+  n58 -->|imports| n4
+  n58 -->|imports| n25
+  n58 -->|imports| n24
+  n58 -->|imports| n11
+  n58 -->|imports| n21
+  n58 -->|imports| n8
+  n58 -->|imports| n18
+  n58 -->|imports| n6
+  n58 -->|imports| n22
+  n58 -->|imports| n3
+  n58 -->|imports| n1
+  n58 -->|imports| n15
+  n58 -->|imports| n66
+  n58 -->|imports| n12
+  n58 -->|imports| n9
+  n58 -->|imports| n19
+  n58 -->|imports| n32
+  n58 -->|imports| n29
+  n58 -->|imports| n33
+  n58 -->|imports| n35
+  n58 -->|imports| n34
+  n58 -->|imports| n31
+  n58 -->|imports| n28
+  n58 -->|imports| n26
+  n58 -->|imports| n27
+  n58 -->|imports| n36
+  n58 -->|imports| n30
+  n58 -->|imports| n2
+  n58 -->|imports| n13
+  n58 -->|imports| n14
+  n60 -->|imports| n8
+  n60 -->|imports| n18
+  n60 -->|imports| n6
+  n60 -->|imports| n15
+  n60 -->|imports| n1
+  n60 -->|imports| n2
+  n60 -->|imports| n66
+  n59 -->|imports| n1
+  n59 -->|imports| n18
+  n59 -->|imports| n12
+  n59 -->|imports| n6
+  n59 -->|imports| n15
+  n59 -->|imports| n66
+  n59 -->|imports| n8
+  n59 -->|imports| n13
+  n59 -->|delay_imports| n5
+  n59 -->|delay_imports| n4
+  n59 -->|delay_imports| n61
+  n59 -->|delay_imports| n21
+  n59 -->|delay_imports| n23
+  n59 -->|delay_imports| n20
+  n59 -->|delay_imports| n16

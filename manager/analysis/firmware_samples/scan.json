@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-11-04T01:02:33.802667+00:00",
+  "target": "samples\\firmware",
+  "files": [
+    {
+      "path": "AP-POR-007/1.8.0.0-29445/ap-app.img",
+      "size": 19800070,
+      "sha256": "6ab8eccd67987289c3f0820a75b426472c27e454e03a095897a70e8eb8a61ba9",
+      "errors": [],
+      "extension": ".img",
+      "features": [],
+      "string_count": 235384
+    },
+    {
+      "path": "AP-POR-007/1.8.0.0-29445/ap-data.img",
+      "size": 29544454,
+      "sha256": "f16cf5fa4dfdf1f65d357165b4d8aa62d865d3d801ff156cd304ae784ed7951e",
+      "errors": [],
+      "extension": ".img",
+      "features": [
+        {
+          "type": "gzip",
+          "offset": 21620792,
+          "status": "magic candidate only"
+        }
+      ],
+      "string_count": 351594
+    },
+    {
+      "path": "AP-POR-007/1.8.0.0-29445/bootstream.img",
+      "size": 6100998,
+      "sha256": "95f470cae1519becee79129433208208a4e58f14c8718323c2f11c387601f2e2",
+      "errors": [],
+      "extension": ".img",
+      "features": [],
+      "string_count": 73200
+    },
+    {
+      "path": "AP-POR-007/1.8.0.0-29445/MD5SUMS",
+      "size": 223,
+      "sha256": "8aa6b5ddf12b2953c6b30de77b63600a8bee61cf4cffe29bc2dac0c269ddf582",
+      "errors": [],
+      "extension": "",
+      "features": [],
+      "string_count": 4
+    },
+    {
+      "path": "AP-POR-007/1.8.0.0-29445/rootfs.img",
+      "size": 2928646,
+      "sha256": "46288b58aac64f6439c8a1d868351fede95bac959010f23fe59d67d06fdef963",
+      "errors": [],
+      "extension": ".img",
+      "features": [],
+      "string_count": 34944
+    },
+    {
+      "path": "AP-POR-007/1.8.0.0-29445/version_v3.txt",
+      "size": 241,
+      "sha256": "267de9291ddb731e8c51730aabc0dea2401f59d6affbe3ab91c3dbd19e5d2005",
+      "errors": [],
+      "extension": ".txt",
+      "features": [],
+      "string_count": 6
+    }
+  ],
+  "limitations": [
+    "Static evidence only; string/magic hits do not prove implementation",
+    "Archive members require separate extraction; no sample is executed",
+    "Authenticode trust must be checked separately on Windows"
+  ]
+}

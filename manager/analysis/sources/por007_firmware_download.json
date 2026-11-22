@@ -1,0 +1,104 @@
+{
+  "retrieved_utc": "2026-11-04T01:02:01.483434+00:00",
+  "manifest_url": "http://www.accessecu.com/support/accessport/AP-POR-007/version_v3.txt",
+  "manifest_sha256": "267de9291ddb731e8c51730aabc0dea2401f59d6affbe3ab91c3dbd19e5d2005",
+  "version": "1.8.0.0-29445",
+  "files": [
+    {
+      "filename": "MD5SUMS",
+      "url": "http://www.accessecu.com/support/accessport/AP-POR-007/1.8.0.0-29445/MD5SUMS",
+      "bytes": 223,
+      "md5": "0954a2cd77d23fd0ceba46488fdadab4",
+      "sha256": "8aa6b5ddf12b2953c6b30de77b63600a8bee61cf4cffe29bc2dac0c269ddf582",
+      "seconds": 0.604,
+      "headers": {
+        "x-amz-id-2": "AeVi1t+KRJ/C29T6+tZgsyDECV6ajQUS/hC4fLbhRlf4Llngil4Kp8NVHrFLjJB/ut4gkftxNq84ajhUgPaW1YuFoYfEVCAg",
+        "x-amz-request-id": "31BQVHNNTJ4YJXR0",
+        "Server": "AmazonS3",
+        "Date": "Wed, 04 Nov 2026 01:01:52 GMT",
+        "Last-Modified": "Thu, 29 Oct 2026 18:19:41 GMT",
+        "ETag": "\"0954a2cd77d23fd0ceba46488fdadab4\"",
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "223",
+        "Connection": "close"
+      }
+    },
+    {
+      "filename": "ap-app.img",
+      "url": "http://www.accessecu.com/support/accessport/AP-POR-007/1.8.0.0-29445/ap-app.img",
+      "bytes": 19800070,
+      "md5": "55442121d0c753e99cbeffbd9f05e55c",
+      "sha256": "6ab8eccd67987289c3f0820a75b426472c27e454e03a095897a70e8eb8a61ba9",
+      "seconds": 2.318,
+      "headers": {
+        "x-amz-id-2": "6vEGuAs/lCsTYANQKiQmyS/rxZ2gfatJ5grrtto0xBvei71KFf9PZFoBYeGA/SqBiCbYFw4AI+zInpgFXylQH/gfnMc66Gq9",
+        "x-amz-request-id": "N2MYZZ97A85SFABS",
+        "Server": "AmazonS3",
+        "Date": "Wed, 04 Nov 2026 01:01:53 GMT",
+        "Last-Modified": "Thu, 29 Oct 2026 18:19:41 GMT",
+        "ETag": "\"daa3a6bd4ae6cbe42dc5bf0f2d381c73-3\"",
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "19800070",
+        "Connection": "close"
+      }
+    },
+    {
+      "filename": "ap-data.img",
+      "url": "http://www.accessecu.com/support/accessport/AP-POR-007/1.8.0.0-29445/ap-data.img",
+      "bytes": 29544454,
+      "md5": "e9a062eeb0bbcebbd1871986ad7597d6",
+      "sha256": "f16cf5fa4dfdf1f65d357165b4d8aa62d865d3d801ff156cd304ae784ed7951e",
+      "seconds": 2.987,
+      "headers": {
+        "x-amz-id-2": "3nZwlEU1JnfOOYGgygn+c3nZh6lXbW9Pm3NyRb5tTvQeZfDzjjlFCaaF3aAA7QzIIAZDhOE4b0E=",
+        "x-amz-request-id": "TMS9S8Z0BBXVKBR0",
+        "Server": "AmazonS3",
+        "Date": "Wed, 04 Nov 2026 01:01:55 GMT",
+        "Last-Modified": "Thu, 29 Oct 2026 18:19:41 GMT",
+        "ETag": "\"326d767ba4541a5baeb034874f95d137-4\"",
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "29544454",
+        "Connection": "close"
+      }
+    },
+    {
+      "filename": "bootstream.img",
+      "url": "http://www.accessecu.com/support/accessport/AP-POR-007/1.8.0.0-29445/bootstream.img",
+      "bytes": 6100998,
+      "md5": "12027cb26ce682e256ffc4ea1b3df704",
+      "sha256": "95f470cae1519becee79129433208208a4e58f14c8718323c2f11c387601f2e2",
+      "seconds": 1.667,
+      "headers": {
+        "x-amz-id-2": "NOXabXuyOkb877Wt/B1VEM/0u3UwR4jX98O7USi98QF/MUP0Vgb3U9bppjHRqcHysnVPYHUpchE=",
+        "x-amz-request-id": "571SEQF0Y6BG8DJG",
+        "Date": "Wed, 04 Nov 2026 01:01:58 GMT",
+        "Last-Modified": "Thu, 29 Oct 2026 18:19:41 GMT",
+        "ETag": "\"12027cb26ce682e256ffc4ea1b3df704\"",
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "6100998",
+        "Server": "AmazonS3",
+        "Connection": "close"
+      }
+    },
+    {
+      "filename": "rootfs.img",
+      "url": "http://www.accessecu.com/support/accessport/AP-POR-007/1.8.0.0-29445/rootfs.img",
+      "bytes": 2928646,
+      "md5": "059a2c1f515c8c61b4fd986b23d60937",
+      "sha256": "46288b58aac64f6439c8a1d868351fede95bac959010f23fe59d67d06fdef963",
+      "seconds": 1.577,
+      "headers": {
+        "x-amz-id-2": "U/dZfye8OQScGGZOI7yhenzHGvmRv4bFgrLoV+GyDfVLW2PTRqvfcKqt2IM84V++UFc7eJI7m1zGBBntwY8XvdRQunoAV/xl",
+        "x-amz-request-id": "J2JRFFNZRAAH7M84",
+        "Server": "AmazonS3",
+        "Date": "Wed, 04 Nov 2026 01:02:00 GMT",
+        "Last-Modified": "Thu, 29 Oct 2026 18:19:41 GMT",
+        "ETag": "\"059a2c1f515c8c61b4fd986b23d60937\"",
+        "Content-Type": "binary/octet-stream",
+        "Content-Length": "2928646",
+        "Connection": "close"
+      }
+    }
+  ],
+  "integrity_limit": "MD5 matches anonymous HTTP manifest; publisher authenticity is not cryptographically proven."
+}
